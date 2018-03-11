@@ -4,4 +4,4 @@ function nextMonth(){
     console.log(moment().add(1, 'M'));
 }
 
-nextMonth();
+module.exports = {nextMonth};
